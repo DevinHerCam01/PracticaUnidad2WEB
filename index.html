@@ -19,7 +19,7 @@
                 <div>
                     <img class="TituloPagina-1" src="assets/TituloPagina-removebg-preview.png" alt="">
                 </div>
-                <div class="login">
+                <div class="login"> 
                     <a href="#">Iniciar Sesion</a>
                 </div>
                 <div class="register">
@@ -161,6 +161,10 @@
     <footer class="footer container">
         <img class="logo-2" src="assets/Logo_PagWeb-sinfondo.png" alt="">
         <div class="links">
+
+            /* Buscador */
+            <input type="search" id="searchInput" placeholder="Buscar recetas...">
+    	    <ul id="recipeList">  </ul>
             <h4>lorem</h4>
             <ul>
                 <li><a href="#">lorem</a></li>
@@ -209,6 +213,25 @@
             </div>
         </div>
 
+        /* Enviar comentario */
+        <form id="comment-form">
+            <input type="text" id="username" placeholder="Nombre de usuario"> <br><br>
+          
+            <textarea id="comment" placeholder="Deja tu comentario"></textarea><br><br>
+             <button type="submit">Enviar comentario</button>
+          </form>
+
+          
+          /* Calificar contenido */
+          <h1>Califica el contenido de la página</h1>
+	<input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+    <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+    <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+    <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+    <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+    </div>
+    <button id="submit">Enviar Calificación</button>
+    
         <img class="PieDePagina-1" src="assets/PieDePagina-removebg.png" alt="">
 
     </footer>
