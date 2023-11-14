@@ -46,33 +46,44 @@ header {
     color:#0EC793;
 }
 
-.TituloPagina-1 {
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .TituloPagina-1 {
     width: 450px; 
     height: 80px;
     object-fit: cover;
     margin-left: -1700px; 
     margin-top: 120px; 
+} */
+
+.encabezado {
+    width: 100vw;
 }
 
-nav ul {
+.encabezado ul {
     background-color: #C77000;
     width: 100%;
     list-style-type: none; 
     text-align: center;
 }
 
-nav li {
+.encabezado li {
     display: inline-flex;
 }
 
-nav a {
+.encabezado a {
     text-decoration: none;
     color: #21180C;
     padding: 10px;
     width: 150px;
 }
 
-nav li:hover {
+.encabezado li:hover {
     background-color: #C77000;
 }
 
@@ -140,33 +151,38 @@ nav li:hover {
     object-fit: cover;
 }
 
-.PieDePagina-1 {
-    width: 200;
-    height: 300;
-    object-fit: cover;
+.pie-pagina-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 .contenido {
     display: flex;
-    margin: 60px;
-}
 
-.articulos {
-    width: 80%;
-    border-right: 3px solid black;
 }
 
 .secciones {
+    width: 80%;
+    border-right: 3px solid black;
+    padding: 120px;
+}
+
+.articulos {
     display: flex;
     align-items: center;
-    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.texto-imagen p {
+    max-width: 50%;
 }
 
 .section{
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding: 10px;
 }
 
 .menu-secundario {
@@ -182,13 +198,12 @@ nav li:hover {
 
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
+/* .container {
+} */
 
 .socials {
     display: flex;
+    margin-top: 20px;
 }
 
 .social {
@@ -221,41 +236,51 @@ nav li:hover {
 }
 
 /*Comentario*/
-#comments {
+.comments {
     text-align: left;
     margin: 10px;
-  }
-  
-  .comment {
+}
+
+.comment {
     border: 1px solid #ccc;
     padding: 10px;
     margin: 5px;
-  }
-  
-  #comment-form {
+}
+
+.comment-form {
     margin: 10px;
-  }
-  
-  #comment-form input, #comment-form textarea, #comment-form select, #comment-form button {
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+}
+
+.comment-form input,
+.comment-form textarea,
+.comment-form select,
+.comment-form button {
+    width: 50%;
     margin: 5px;
     padding: 10px;
-  }
-  
-  #comment-form button {
+}
+
+.comment-form h3 {
+    margin: 10px 0px;
+}
+
+.comment-form button {
     background-color: #333;
     color: #fff;
     border: none;
     cursor: pointer;
-  }
-  
-  #comment-form button:hover {
+}
+
+.comment-form button:hover {
     background-color: #555;
-  }
+}
 
-  /* Calificar contenido de la pagina */
-
-h1 {
+.h1 {
   color: #333;
 }
 
@@ -291,4 +316,53 @@ h1 {
   background-color: #555;
 }
 
+.info-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
 
+.horario-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.horario-info .txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.map-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.calification-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

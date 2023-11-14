@@ -14,23 +14,26 @@
 
     <header>
 
-        <nav>
-            <ul>
-                <div>
+        <div class="encabezado">
+            <section>
+                <div class="logo-container">
                     <img class="TituloPagina-1" src="assets/TituloPagina-removebg-preview.png" alt="">
                 </div>
-                <div class="login"> 
-                    <a href="#">Iniciar Sesion</a>
-                </div>
-                <div class="register">
-                    <a href="#">Registrarse</a>
-                </div>
 
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Menu</a></li>
-                <div class="user">
+                <ul>
+                    <!-- <div class="login"> 
+                        <a href="#">Iniciar Sesion</a>
+                    </div>
+                    <div class="register">
+                        <a href="#">Registrarse</a>
+                    </div> -->
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Menu</a></li>
+                </ul>
+
+                <!-- <div class="user">
                     <input type="checkbox" id="toggleOptions">
                     <label for="toggleOptions" class="arrow"></label>
                     <div class="options">
@@ -38,26 +41,61 @@
                       <a href="#">Configuración</a>
                       <input type="submit" id="logOut" class="signOut" value="Cerrar Sesión"/>
                     </div>
-                  </div>
-            </ul>
-        </nav>
+                </div> -->
+            </section>
+        </div>
 
-    </header>    
+    </header>
 
-        <div class="contenido">
-            <div class="articulos">
-                <div class="secciones">
-                    <div>
+    <div class="contenido">
+            <section class="secciones">
+                <article class="articulos">
+                    <div class="texto-imagen">
                         <h2>Pozole</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eum vel ratione neque nam
-                            veritatis, temporibus ullam et esse, inventore natus quasi exercitationem pariatur in
-                            aliquid maxime illo? Illum, eius.
+                        <p>Ingredientes:
+        
+                            Para el caldo:
+        
+                            1 kg de maíz hominy (nixtamalizado)
+                            1 kg de carne de cerdo (pierna, espaldilla o mixta), cortada en trozos
+                            1 cabeza de ajo, pelada y picada
+                            1 cebolla, pelada y picada
+                            Sal al gusto
+                            Agua suficiente para cubrir los ingredientes
+                            Para la salsa:
+        
+                            4 chiles secos (guajillo, ancho o pasilla)
+                            2 dientes de ajo
+                            1/2 cucharadita de comino
+                            Sal al gusto
+        
+                            Instrucciones:
+        
+                            Preparación del maíz hominy: Enjuaga el maíz hominy con agua fría. Luego, colócalo en una olla
+                            grande, cúbrelo con agua y cocina a fuego medio hasta que esté tierno (puede llevar varias
+                            horas, dependiendo del tipo de maíz). Agrega sal al gusto.
+        
+                            Preparación del caldo: En otra olla grande, coloca la carne de cerdo, la cebolla, los ajos y sal
+                            al gusto. Cubre con agua y cocina a fuego medio hasta que la carne esté tierna. Retira la espuma
+                            que se forma en la superficie.
+        
+                            Preparación de la salsa: Mientras se cocina la carne, asa los chiles secos en un sartén caliente
+                            hasta que estén fragantes. Retira las semillas y las venas de los chiles. Luego, licúa los
+                            chiles con ajo, comino y sal. Puedes agregar un poco de caldo de la olla para facilitar la
+                            mezcla.
+        
+                            Combinación de ingredientes: Agrega la salsa de chile a la olla con la carne y mezcla bien.
+                            Cocina a fuego lento durante unos 15-20 minutos para que los sabores se mezclen.
+        
+                            Servir: Sirve el pozole en tazones grandes. Añade el maíz hominy y la carne con suficiente
+                            caldo. Sirve con las guarniciones: rábanos, lechuga, cebolla, orégano, limones y tortillas
+                            tostadas.
                         </p>
                     </div>
                     <div><img class="platillo-1" src="assets/Platillos/Pozole1.jpg" alt=""></div>
-                </div>
-                <div class="secciones">
-                    <div>
+                </article>
+                <article class="articulos">
+                    <div class="texto-imagen">
                         <h2>Chilaquiles Rojos</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non eum vel ratione neque nam
                             veritatis, temporibus ullam et esse, inventore natus quasi exercitationem pariatur in
@@ -65,18 +103,18 @@
                         </p>
                     </div>
                     <div><img class="platillo-2" src="assets/Platillos/ChilaquilesRojos1.jpg" alt=""></div>
-                </div>
-            </div>
-            <div class="menu-secundario">
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-                <a href="">Mas Platillos</a>
-            </div>
-        </div>
+                </article>
+            </section>
+        <aside class="menu-secundario">
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+            <a href="">Mas Platillos</a>
+        </aside>
+    </div>
 
 
     <section class="info container">
@@ -93,7 +131,7 @@
     </section>
 
     <section class="horario">
-        <div class="horario-info container">
+        <div class="horario-info">
 
             <h2>Horario</h2>
             <div class="horario-txt">
@@ -151,91 +189,92 @@
             </dliv>
     </section>
 
-    <section>
+    <section class="map-section">
         <iframe class="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d871.5595216229952!2d-110.99960530176759!3d29.09865162918553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce840080479b87%3A0x12b83154f02ccbf!2sEdificio%20L5%20-%20Ingenier%C3%ADa%20en%20Sistemas%20Computacionales%20e%20Inform%C3%A1tica!5e0!3m2!1ses!2smx!4v1699429333696!5m2!1ses!2smx"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>
 
-    <footer class="footer container">
-        <img class="logo-2" src="assets/Logo_PagWeb-sinfondo.png" alt="">
-        <div class="links">
-
-            /* Buscador */
-            <input type="search" id="searchInput" placeholder="Buscar recetas...">
-    	    <ul id="recipeList">  </ul>
-            <h4>lorem</h4>
-            <ul>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-            </ul>
-        </div>
-        <div class="links">
-            <h4>lorem</h4>
-            <ul>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-            </ul>
-        </div>
-        <div class="links">
-            <h4>lorem</h4>
-            <ul>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-                <li><a href="#">lorem</a></li>
-            </ul>
-        </div>
-
-        <div class="links">
-            <h4>lorem</h4>
-            <div class="socials">
-                <a href="#">
-                    <div class="social">
-                        <img src="assets/s1.svg" alt="">
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="social">
-                        <img src="assets/s2.svg" alt="">
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="social">
-                        <img src="assets/s3.svg" alt="">
-                    </div>
-                </a>
+    <footer class="footer">
+        <div class="container">
+            <img class="logo-2" src="assets/Logo_PagWeb-sinfondo.png" alt="">
+            <div class="links">
+        
+                /* Buscador */
+                <input type="search" id="searchInput" placeholder="Buscar recetas...">
+                <ul id="recipeList"> </ul>
+            </div>
+            <div class="links">
+                <h4>lorem</h4>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+            <div class="links">
+                <h4>lorem</h4>
+                <ul>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                    <li><a href="#">lorem</a></li>
+                </ul>
+            </div>
+        
+            <div class="links">
+                <h4>Redes Sociales</h4>
+                <div class="socials">
+                    <a href="#">
+                        <div class="social">
+                            <img src="assets/s1.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social">
+                            <img src="assets/s2.svg" alt="">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="social">
+                            <img src="assets/s3.svg" alt="">
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
 
-        /* Enviar comentario */
-        <form id="comment-form">
+        <!-- /* Enviar comentario */ -->
+        <form class="comment-form" id="comment-form">
+            <h3>Enviar Comentario</h3>
             <input type="text" id="username" placeholder="Nombre de usuario"> <br><br>
-          
+            <h3>Deja tu Comentario</h3>
             <textarea id="comment" placeholder="Deja tu comentario"></textarea><br><br>
-             <button type="submit">Enviar comentario</button>
-          </form>
+            <button type="submit">Enviar comentario</button>
+        </form>
 
-          
-          /* Calificar contenido */
-          <h1>Califica el contenido de la página</h1>
-	<input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
-    <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
-    <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
-    <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
-    <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
-    </div>
-    <button id="submit">Enviar Calificación</button>
-    
-        <img class="PieDePagina-1" src="assets/PieDePagina-removebg.png" alt="">
+
+        <!-- /* Calificar contenido */ -->
+        <div class="calification-section">
+            <h1>Califica el contenido de la página</h1>
+            <div>
+                <input type="radio" id="star5" name="rating" value="5" /><label for="star5"></label>
+                <input type="radio" id="star4" name="rating" value="4" /><label for="star4"></label>
+                <input type="radio" id="star3" name="rating" value="3" /><label for="star3"></label>
+                <input type="radio" id="star2" name="rating" value="2" /><label for="star2"></label>
+                <input type="radio" id="star1" name="rating" value="1" /><label for="star1"></label>
+            </div>
+            <button id="submit">Enviar Calificación</button>
+        </div>
+
+        <div class="pie-pagina-1">
+            <img src="assets/PieDePagina-removebg.png" alt="">
+        </div>
 
     </footer>
-    
+
 
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
