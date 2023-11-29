@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #FCAD02;
+  background-color: #C79D65;
   font-family: "Poppins", sans-serif;
 }
 
@@ -47,6 +47,7 @@ header {
 }
 
 .logo-container {
+    background-color: #FCAD02;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -84,59 +85,9 @@ header {
 }
 
 .encabezado li:hover {
-    background-color: #C77000;
-}
-
-.user {
-    position: relative;
+    background-color: #F32529;
 }
   
-.user input[type="checkbox"] {
-    display: none;
-}
-
-.arrow {
-    top: -20px;
-    width: 20px;
-    height: 20px;
-    margin-right: -2000px;
-    border: solid #000000;
-    border-width: 20 3px 3px 0;
-    transform: rotate(45deg);
-    position: relative;
-    cursor: pointer;
-}
-
-.options {
-    position: absolute;
-    top: 23px;
-    right: 0px;
-    width: 150px;
-    background-color: #C77000;
-    padding: 10px;
-    display: none;
-    font-family: Arial, sans-serif;
-    text-align: center;
-    text-decoration: none;
-}
-  
-.user input[type="checkbox"]:checked ~ .arrow {
-    transform: rotate(135deg);
-}
-  
-.user input[type="checkbox"]:checked ~ .options {
-    display: block;
-}
-  
-.logout {
-    background-color: red;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
 .platillo-1 {
     width: 500px;
     height: 400px;
@@ -152,21 +103,24 @@ header {
 }
 
 .pie-pagina-1 {
+    background-color: #C77000;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
-
 
 .contenido {
     display: flex;
-
+    background-color: #C77000;
 }
 
 .secciones {
+    background-color: #FCAD02;
     width: 80%;
     border-right: 3px solid black;
     padding: 120px;
+    border-radius: 10%;
 }
 
 .articulos {
@@ -186,8 +140,10 @@ header {
 }
 
 .menu-secundario {
+    background-color: #C77000;
     width: 20%;
     margin-top: 60px;
+    border-radius: 5%;
 }
 
 .menu-secundario a {
@@ -197,9 +153,6 @@ header {
     margin-bottom: 20px;
 
 }
-
-/* .container {
-} */
 
 .socials {
     display: flex;
@@ -316,6 +269,10 @@ header {
   background-color: #555;
 }
 
+.info-container {
+    background-color: #C77000;
+}
+
 .info-txt {
     display: flex;
     flex-direction: column;
@@ -325,10 +282,12 @@ header {
 }
 
 .horario-info {
+    background-color: #FCAD02;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 
 .horario-info .txt {
@@ -340,17 +299,28 @@ header {
 }
 
 .map-section {
+    background-color: #C77000;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 20px 0px;
+    border-radius: 5%;
+}
+
+.logo-2 {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
+    background-color: #FCAD02;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border-radius: 5%;
 }
 
 .footer .links {
